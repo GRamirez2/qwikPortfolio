@@ -18,7 +18,6 @@ export default component$(() => {
     const internal = setInterval(() => state.count++, 7000);
     cleanup(() => clearInterval(internal));
   });
-
   return (
     <div class="section">
       <div class="container center">
