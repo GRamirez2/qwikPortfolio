@@ -6,7 +6,7 @@ export default component$(() => {
     const serverTime = useServerTimeLoader();
     return (
         <>
-        <section class='w-full  bg-header pb-12'>
+        <section class='w-full  bg-header pb-6'>
             <section>
                 <article class='h-14 overflow-hidden bg-header'>
                     <svg viewBox="0 0 500 150" preserveAspectRatio="none" class='h-full w-full'>
@@ -15,7 +15,7 @@ export default component$(() => {
                     </svg>
                 </article>
                 <section class='max-w-screen-xl mx-auto'>
-                    <article class='flex flex-col md:flex-row justify-around items-center text-lg min-h-fit p-10 rounded-2xl border-2 border-header-dark mx-4 text-slate-600'>
+                    <article class='flex flex-col md:flex-row justify-around items-center text-lg min-h-fit p-10 mx-4 text-slate-600'>
                         <article class='w-full text-center md:w-1/2 lg:w-1/3 md:text-left mb-6 md:mb-0'>
                             <p class='text-3xl pb-4'>Get in touch</p>
                             <p class='text-lg'>Looking for a developer, let’s work together!</p>
