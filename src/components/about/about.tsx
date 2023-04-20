@@ -5,7 +5,7 @@ export default component$(() => {
     return (
         <>
         <section class='w-full'>
-            <article class='max-w-screen-xl mx-auto pt-10 text-xl leading-8 text-slate-600'>
+            <article class='max-w-screen-xl mx-auto text-xl leading-8 text-slate-600'>
                 <div class='mx-6'>
                     <p class='pb-3'>
                     I'm a software engineer who loves to code and specializes in front-end development. Currently I work for SingleStone Consulting as a senior consultant / senior software engineer. This year my client engagement has been with Capital One where I have architected and developed a large SLA Angular application and am currently managing an intricate document repository intigration for a different line of business. In this role I work closely with the clients transforming business rules to logic and solving complex problems with technical ingenuity and patience.
@@ -21,27 +21,27 @@ export default component$(() => {
                     <section class='flex flex-row flex-wrap'>
                         
                             <div class='text-sm bg-header-dark rounded-full px-4 mr-2 flex flex-row justify-between items-center mt-3'>
-                                <img src="/monitor-24.png" alt="Front-end Logo" class=' w-4 mr-2' />
+                                <img src="/monitor-24.png" alt="Front-end Logo" class=' w-4 mr-2 contrast-50' />
                             Front-End
                             </div>
 
                             <div class='text-sm bg-header-dark rounded-full px-4 mr-2 flex flex-row justify-between items-center mt-3'>
-                                <img src="/manager-32.png" alt="Manager Logo" class=' w-4 mr-2' />
+                                <img src="/manager-32.png" alt="Manager Logo" class=' w-4 mr-2 contrast-50' />
                             Manager
                             </div>
 
                             <div class='text-sm bg-header-dark rounded-full px-4 mr-2 flex flex-row justify-between items-center mt-3'>
-                                <img src="/angular-24.png" alt="Angular Logo" class=' w-4 mr-2' />
+                                <img src="/angular-24.png" alt="Angular Logo" class=' w-4 mr-2 contrast-50' />
                             Angular
                             </div>
 
                             <div class='text-sm bg-header-dark rounded-full px-4 mr-2 flex flex-row justify-between items-center mt-3'>
-                                <img src="/node-js-32.png" alt="NodeJS Logo" class=' w-4 mr-2' />
+                                <img src="/node-js-32.png" alt="NodeJS Logo" class=' w-4 mr-2 contrast-50' />
                             NodeJS
                             </div>
 
                             <div class='text-sm bg-header-dark rounded-full px-4 mr-2 flex flex-row justify-between items-center mt-3'>
-                                <img src="/location-24.png" alt="George Ramirez located in Little Rock Arkansas" class=' w-4 mr-2' />
+                                <img src="/location-24.png" alt="George Ramirez located in Little Rock Arkansas" class=' w-4 mr-2 contrast-50' />
                             Little Rock, AR
                             </div>
                         
