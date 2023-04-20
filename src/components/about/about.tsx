@@ -14,19 +14,37 @@ export default component$(() => {
                     My evenings and weekends revolve around running a web design agency I started with a friend, Tech-Mex.io. We design and build marketing websites for the new economy.
                     We enjoy helping small businesses grow their digital footprint and use the latest front-end techonology to experiement with websites that have traffic and generate business.
                     </p>
-                    <p class='pb-3'>
+                    <p>
                     As a big fan of good music and food, a small but important benefit of remote work is you are in charge of your daily playlist and can make lunch in your own kitchen. The song I can't stop playing is, Is it Any Wonder, by Durand Jones and the Indications. As for food, it's simple, I love tacos. I eat them often, they make my happy. 
                     </p>
 
-                    <section>
-                        <span>
-                        <button class='text-sm bg-header-dark rounded-full px-4 mr-2'>Front-End</button>
-                        <button class='text-sm bg-header-dark rounded-full px-4 mr-2'>Manager</button>
-                        <button class='text-sm bg-header-dark rounded-full px-4 mr-2'>Angular</button>
-                        <button class='text-sm bg-header-dark rounded-full px-4 mr-2'>NodeJS</button>
-                        <button class='text-sm bg-header-dark rounded-full px-4 mr-2'>Little Rock, AR</button>
-                        <button class='text-sm bg-header-dark rounded-full px-4 mr-2'>Tacos</button>
-                        </span>
+                    <section class='flex flex-row flex-wrap'>
+                        
+                            <div class='text-sm bg-header-dark rounded-full px-4 mr-2 flex flex-row justify-between items-center mt-3'>
+                                <img src="/monitor-24.png" alt="Front-end Logo" class=' w-4 mr-2' />
+                            Front-End
+                            </div>
+
+                            <div class='text-sm bg-header-dark rounded-full px-4 mr-2 flex flex-row justify-between items-center mt-3'>
+                                <img src="/manager-32.png" alt="Manager Logo" class=' w-4 mr-2' />
+                            Manager
+                            </div>
+
+                            <div class='text-sm bg-header-dark rounded-full px-4 mr-2 flex flex-row justify-between items-center mt-3'>
+                                <img src="/angular-24.png" alt="Angular Logo" class=' w-4 mr-2' />
+                            Angular
+                            </div>
+
+                            <div class='text-sm bg-header-dark rounded-full px-4 mr-2 flex flex-row justify-between items-center mt-3'>
+                                <img src="/node-js-32.png" alt="NodeJS Logo" class=' w-4 mr-2' />
+                            NodeJS
+                            </div>
+
+                            <div class='text-sm bg-header-dark rounded-full px-4 mr-2 flex flex-row justify-between items-center mt-3'>
+                                <img src="/location-24.png" alt="George Ramirez located in Little Rock Arkansas" class=' w-4 mr-2' />
+                            Little Rock, AR
+                            </div>
+                        
                     </section>
                 </div>
             </article>
