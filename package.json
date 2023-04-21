@@ -1,6 +1,6 @@
 {
-  "name": "my-qwik-basic-starter",
-  "description": "George Portfolio made with QWIK",
+  "name": "george-ramirez-bio",
+  "description": "George Ramirez portfolio made with QWIK",
   "engines": {
     "node": ">=15.0.0"
   },
