@@ -1,6 +1,6 @@
 {
   "name": "my-qwik-basic-starter",
-  "description": "App with Routing built-in (recommended)",
+  "description": "George Portfolio made with QWIK",
   "engines": {
     "node": ">=15.0.0"
   },
