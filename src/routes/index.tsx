@@ -42,7 +42,7 @@ export const head: DocumentHead = {
     },
     {
       property: 'og:url',
-      content: 'georgeramirez.me'
+      content: 'https://georgeramirez.me/'
     },
     {
       property: 'og:image',
