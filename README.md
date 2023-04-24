@@ -161,3 +161,9 @@ npm run deploy
 ```
 
 Then visit [http://localhost:8080/](http://localhost:8080/)
+
+## Static Site Generator (Node.js)
+
+```
+npm run build.server
+```
