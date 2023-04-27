@@ -2,11 +2,31 @@ import { component$ } from '@builder.io/qwik';
 import type { DocumentHead } from '@builder.io/qwik-city';
 
 import About from '~/components/about/about';
+import { QwikPartytown } from '~/components/partytown/partytown';
 import Showcase from '~/components/showcase/showcase';
 
 export default component$(() => {
+
+  const ORIGIN = `https://www.googletagmanager.com`;
+  const ID = `UA-180300411-1`;
+
   return (
     <>
+      <QwikPartytown forward={['gtag', 'dataLayer.push']} />
+      <script async type="text/partytown" src={`${ORIGIN}/gtag/js?id=${ID}`}></script>
+
+      <script
+        type="text/partytown"
+        dangerouslySetInnerHTML={`
+          window.dataLayer = window.dataLayer || [];
+          window.gtag = function () {
+            dataLayer.push(arguments);
+          }
+          gtag('js', new Date());
+          gtag('config', ${ID});
+        `} ></script>
+
+
       <About />
       <Showcase />
     </>
