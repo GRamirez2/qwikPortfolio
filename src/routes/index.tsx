@@ -8,14 +8,14 @@ import Showcase from '~/components/showcase/showcase';
 export default component$(() => {
 
   const ORIGIN = `https://www.googletagmanager.com`;
-  const ID = `UA-180300411-1`;
+  const ID = `G-7LS68TKFV4`;
 
   return (
     <>
-      <QwikPartytown forward={['gtag', 'datalayer']} />
-      <script async type="text/partytown" src={`${ORIGIN}/gtag/js?id=${ID}`}></script>
+      <QwikPartytown forward={['datalayer.push']} />
+      <script async type="text/partytown" src={`${ORIGIN}/gtag/js?id=${ID}`}/>
 
-      <script
+      {/* <script
         type="text/partytown"
         dangerouslySetInnerHTML={`
           window.dataLayer = window.dataLayer || [];
@@ -24,8 +24,7 @@ export default component$(() => {
           }
           gtag('js', new Date());
           gtag('config', ${ID});
-        `} ></script>
-
+        `} /> */}
 
       <About />
       <Showcase />
