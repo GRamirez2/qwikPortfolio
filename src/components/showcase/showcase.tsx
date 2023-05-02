@@ -4,10 +4,10 @@ import { component$ } from '@builder.io/qwik';
 export default component$(() => {
     return (
         <>
-        <section class='w-full'>
+        <section class='w-full dark:bg-slate-700'>
             <article class='max-w-screen-xl mx-auto pt-10 pb-10 text-xl leading-8 text-slate-600'>
                 <div class='mx-6'>
-                    <h3 class='text-4xl mb-8'>
+                    <h3 class='text-4xl mb-8 dark:text-slate-200'>
                         Feautred Projects
                     </h3>
                     <section class='w-full flex flex-col gap-y-5 lg:gap-y-0 lg:flex-row lg:flex-wrap lg:justify-between '>

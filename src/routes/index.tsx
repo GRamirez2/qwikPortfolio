@@ -12,7 +12,7 @@ export default component$(() => {
 
   return (
     <>
-      <QwikPartytown forward={['gtag', 'dataLayer.push']} />
+      <QwikPartytown forward={['gtag', 'datalayer']} />
       <script async type="text/partytown" src={`${ORIGIN}/gtag/js?id=${ID}`}></script>
 
       <script

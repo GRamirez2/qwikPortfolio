@@ -1,0 +1,11 @@
+.svgBottom {
+    stroke: none;
+    fill: #fff;
+  }
+  
+  
+  @media (prefers-color-scheme: dark) {
+    .svgBottom {
+      fill: #334155;
+    }
+  }
